@@ -25,6 +25,7 @@ ul,
 li {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 a {
@@ -32,7 +33,7 @@ a {
     color: var(--cor-de-link);
 }
 
-input{
+input {
     font-family: 'Raleway';
     text-align: left;
     border: none;
@@ -40,34 +41,49 @@ input{
     color: #2A7AE4;
     padding: 2px;
 }
-p{
+
+p {
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
-button{
+
+button {
     font-family: 'Raleway';
+    text-align: center;
 }
-.menu__container{
-    max-width: 100%;
+
+.menu__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 140px 40px 140px;
+    margin: 40px 150px 40px 150px;
+    gap:0
 }
-.menu__logo{
+
+.menu__logo {
     width: 200px;
 }
-.menu__buscador{
+
+.menu__buscador {
     display: flex;
     padding: 0;
 }
+
 .menu__buscador__barra {
     display: flex;
     align-items: stretch;
     border-radius: 25px;
-    width: 340px;
+    width: 500px;
+    height: 24px;
+    padding: 8px 16px 8px 16px;
     background-color: #F5F5F5;
     overflow: hidden;
 }
@@ -76,15 +92,17 @@ button{
     border: none;
     background-color: transparent;
     text-align: center;
+    font-size: 1rem;
 }
 
 .busqueda__boton {
     border: none;
     background-color: transparent;
-    margin-left: auto; /* Esto alinea el botón a la derecha dentro del contenedor */
+    margin-left: auto;
+    /* Esto alinea el botón a la derecha dentro del contenedor */
 }
 
-.menu__btn_login{
+.menu__btn_login {
     border: 1.5px solid #2A7AE4;
     color: #2A7AE4;
     width: 160px;
@@ -95,51 +113,54 @@ button{
 }
 
 
-.img_logo{
+.img_logo {
     width: 176px;
 }
 
-.promociones{
-    background-image:url(assets/Hero.png);
-    background-size:cover;
+.promociones {
+    background-image: url(assets/Hero.png);
+    background-size: cover;
 }
 
 .promociones__container {
     width: 100%;
 }
 
-.promociones__titulo{
-    color:#F5F5F5;
+.promociones__titulo {
+    color: #F5F5F5;
     font-size: 3rem;
     padding-top: 150px;
     margin: 0;
-    margin-left: 140px;
+    margin-left: 150px;
 
 
 }
+
 .promociones__texto {
     color: #F5F5F5;
     font-size: 1.5rem;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-bottom: 20px;
     padding: 0;
 }
 
-.promociones__btn{
+.promociones__btn {
     background-color: #2A7AE4;
     color: #F5F5F5;
     border: none;
     width: 129px;
     height: 51px;
-    padding: 20px;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-bottom: 20px;
+    font-size: 1rem;
+
 }
 
-.insumos{
+.insumos {
     width: 100%;
 }
-.insumos__container{
+
+.insumos__container {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -148,52 +169,53 @@ button{
 
 }
 
-.insumos__titulo{
+.insumos__titulo {
     display: flex;
-    flex-direction: row;
-    width: 100%;
     margin-left: 20px;
+    margin-top: 64px;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.insumos__ver_todo{
-        font-size: 0.6rem;
-        color: #2A7AE4;
-        display: flex;
-        width: 120px;
-        justify-content:center;
-        align-items: center;
-    }
+.insumos__ver_todo {
+    font-size: 0.6rem;
+    color: #2A7AE4;
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
 
 
-.insumos__ver__producto{
+.insumos__ver__producto {
     font-size: 0.6rem;
     color: #2A7AE4;
     margin: 0;
 
 }
-.insumos__flecha{
+
+.insumos__flecha {
     width: 24px;
     height: 24px;
 }
 
 .insumos__starwars,
 .insumos__consolas,
-.insumos__otros{
+.insumos__otros {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: nowrap;
     margin: 0;
 }
-.insumos__imagenes{
+
+.insumos__imagenes {
     width: 176px;
     height: 174px;
 }
 
-.insumos_descripcion{
+.insumos_descripcion {
     font-size: 1rem;
     font-weight: lighter;
     margin: 0;
@@ -201,14 +223,98 @@ button{
     width: 170px;
 }
 
-.insumos__precio{
+.insumos__precio {
     font-size: 1.3rem;
     margin: 0;
 }
 
-.insumos__ver__producto{
+.insumos__ver__producto {
     font-size: 0.7rem;
     color: #2A7AE4;
     margin: 0;
 }
 
+.enviar__btn {
+    background-color: #2A7AE4;
+    color: #F5F5F5;
+    border: none;
+    width: 129px;
+    height: 51px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+}
+
+
+
+.menu_inferior {
+    display: flex;
+    background-color: rgba(234, 242, 253, 1);
+
+}
+
+.menu__inferior__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 112px;
+    margin-left: 152px;
+    margin-right: 152px;
+    padding: 64px 0 64px 0;
+}
+
+.inferior__menu {
+    display: flex;
+    width: 176px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.menu__lista__descripción {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.contacto {
+    max-width: 560px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:16px;
+}
+
+.contacto__input {
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 560px;
+    height: 48px;
+}
+
+.contacto__input__mensaje {
+    background-color: #ffffff;
+    width: 560px;
+    height: 66px;
+    border-radius: 4px;
+}
+
+.enviar__btn{
+    margin: 0;
+}
+.footer__rodape {
+    background-color: #9ec6f9;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer__img {
+    width: 50px;
+}
