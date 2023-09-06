@@ -1,0 +1,34 @@
+
+.promociones__container {
+    width: 100%;
+}
+
+.promociones__titulo {
+    color: #F5F5F5;
+    font-size: 3rem;
+    padding-top: 150px;
+    margin: 0;
+    margin-left: 150px;
+
+
+}
+
+.promociones__texto {
+    color: #F5F5F5;
+    font-size: 1.5rem;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.promociones__btn {
+    background-color: #2A7AE4;
+    color: #F5F5F5;
+    border: none;
+    width: 129px;
+    height: 51px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+
+}

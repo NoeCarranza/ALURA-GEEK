@@ -1,0 +1,57 @@
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 150px 40px 150px;
+    gap:0
+}
+
+.menu__logo {
+    width: 200px;
+}
+
+.menu__buscador {
+    display: flex;
+    padding: 0;
+}
+
+.menu__buscador__barra {
+    display: flex;
+    align-items: stretch;
+    border-radius: 25px;
+    width: 500px;
+    height: 24px;
+    padding: 8px 16px 8px 16px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.menu__buscador__input {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.busqueda__boton {
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+    /* Esto alinea el botón a la derecha dentro del contenedor */
+}
+
+.menu__btn_login {
+    border: 1.5px solid #2A7AE4;
+    color: #2A7AE4;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+
+.img_logo {
+    width: 176px;
+}

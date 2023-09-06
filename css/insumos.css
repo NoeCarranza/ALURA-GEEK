@@ -1,0 +1,73 @@
+.insumos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+    margin: 65px 140px;
+
+}
+
+.insumos__titulo {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 64px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.insumos__ver_todo {
+    font-size: 0.6rem;
+    color: #2A7AE4;
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insumos__ver__producto {
+    font-size: 0.6rem;
+    color: #2A7AE4;
+    margin: 0;
+
+}
+
+.insumos__flecha {
+    width: 24px;
+    height: 24px;
+}
+
+.insumos__starwars,
+.insumos__consolas,
+.insumos__otros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.insumos__imagenes {
+    width: 176px;
+    height: 174px;
+}
+
+.insumos_descripcion {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 0;
+    text-align: left;
+    width: 170px;
+}
+
+.insumos__precio {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.insumos__ver__producto {
+    font-size: 0.7rem;
+    color: #2A7AE4;
+    margin: 0;
+}

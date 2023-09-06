@@ -1,0 +1,66 @@
+
+.menu__inferior__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 112px;
+    margin-left: 152px;
+    margin-right: 152px;
+    padding: 64px 0 64px 0;
+}
+
+.inferior__logo{
+    margin-right: 112px;
+}
+.inferior__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.menu__lista__descripción {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+    margin-top: 0;
+    width: 170px;
+    margin-right: 112px;
+}
+
+.contacto {
+    max-width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:16px;
+}
+
+.contacto__input {
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 480px;
+    height: 48px;
+}
+
+.contacto__input__mensaje {
+    background-color: #ffffff;
+    width: 480px;
+    height: 66px;
+    border-radius: 4px;
+}
+
+.enviar__btn {
+    background-color: #2A7AE4;
+    color: #F5F5F5;
+    border: none;
+    width: 129px;
+    height: 51px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
