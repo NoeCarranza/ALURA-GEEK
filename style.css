@@ -54,7 +54,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 152px 40px 152px;
+    margin: 40px 140px 40px 140px;
 }
 .menu__logo{
     width: 200px;
@@ -113,13 +113,14 @@ button{
     font-size: 3rem;
     padding-top: 150px;
     margin: 0;
-    margin-left: 152px;
+    margin-left: 140px;
+
 
 }
 .promociones__texto {
     color: #F5F5F5;
     font-size: 1.5rem;
-    margin-left: 152px;
+    margin-left: 140px;
     margin-bottom: 20px;
     padding: 0;
 }
@@ -131,27 +132,30 @@ button{
     width: 129px;
     height: 51px;
     padding: 20px;
-    margin-left: 152px;
+    margin-left: 140px;
     margin-bottom: 20px;
 }
 
-
+.insumos{
+    width: 100%;
+}
 .insumos__container{
     display: flex;
     flex-direction: column;
     gap: 16px;
     justify-content: space-between;
-    margin: 65px 152px;
+    margin: 65px 140px;
 
 }
 
 .insumos__titulo{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin-left: 20px;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-left: 18px;
 }
 
 .insumos__ver_todo{
