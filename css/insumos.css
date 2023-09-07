@@ -1,3 +1,5 @@
+@media (min-width: 1040px) {}
+
 .insumos__container {
     display: flex;
     flex-direction: column;
@@ -72,10 +74,54 @@
     margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1039px) {
 
+    .insumos__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 12px;
+    }
+    /* Ocultar los dos últimos elementos en .insumos__starwars */
+    .insumos__starwars .insumos__producto__starwars:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    /* Ocultar los dos últimos elementos en .insumos__consolas */
+    .insumos__consolas .insumos__producto__consolas:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    /* Ocultar los dos últimos elementos en .insumos__otros */
+    .insumos__otros .insumos__producto__otros:nth-last-child(-n+2) {
+        display: none;
+    }
+
+    /* Estilo para las imágenes en los productos con gap */
+    .insumos__starwars .insumos__imagenes,
+    .insumos__consolas .insumos__imagenes,
+    .insumos__otros .insumos__imagenes {
+        width: 164px;
+        height: 174px;
+    }
+
+    /* Margen y gap para los contenedores de categorías */
+    .insumos__starwars,
+    .insumos__consolas,
+    .insumos__otros {
+        gap: 12px;
+    }
+    .insumos__titulo {
+        justify-content: space-between;
+        padding: 0;
+        margin: 32px 0 0 0;
+    }
+    .insumos__ver_todo{
+        width: auto;
+    }
 }
 
-@media (min-width: 425px) {
 
-}
+
+
+@media (min-width: 425px) {}
