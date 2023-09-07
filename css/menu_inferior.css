@@ -1,4 +1,4 @@
-
+/* Estilos para pantallas grandes */
 .menu__inferior__container {
     display: flex;
     align-items: flex-start;
@@ -8,9 +8,10 @@
     padding: 64px 0 64px 0;
 }
 
-.inferior__logo{
+.inferior__logo {
     margin-right: 112px;
 }
+
 .inferior__menu {
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap:16px;
+    gap: 16px;
 }
 
 .contacto__input {
@@ -65,12 +66,42 @@
     font-size: 1rem;
 }
 
-@media (min-width: 768px) {
+/* Media query para pantallas de 768px o menos */
+@media (max-width: 768px) {
+    .menu__inferior__container {
+        display: grid;
+        grid-template-columns: 300px 434px;
+        /* Divide en dos columnas */
+        grid-column-gap: 32px;
+        /* Espacio entre columnas */
+        gap: 10px;
+        /* Espaciado entre elementos */
+        margin: 32px;
+        /* Margen para separar del borde de la pantalla */
+        width: 100%;
+    }
+    .inferior__logo{
+        margin-bottom: 10px;
+    }
+    .inferior__menu {
+        grid-column: 1 / span 1;
+        margin-top: 0;
+        text-align: initial;
+    }
 
+    .menu__lista__descripción{
+        margin: 0 0 10px 0;
     }
 
 
-
-@media (min-width: 425px) {
-
+    .contacto {
+        grid-column: 2 / span 1;
+        /* Ocupa la segunda columna */
+        align-items: center;
+        /* Centra el contenido en la segunda columna */
+        margin-top: 32px;
+        /* Margen superior para separar del contenido superior */
+    }
 }
+
+@media (min-width: 425px) {}

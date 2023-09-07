@@ -4,26 +4,35 @@ button {
 }
 
 
+.menu__container {
+    margin: 32px 152px;
+    /* 32px arriba y abajo, 152px izquierda y derecha */
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los elementos al principio y al final */
+    align-items: center;
+    /* Alinea verticalmente al centro */
+}
 
 .menu__logo {
-    width: 200px;
-}
-.img_logo {
-    width: 200px;
+    margin: 0;
+    padding: 0;
 }
 
 .menu__buscador {
     display: flex;
     padding: 0;
+    width: 100%;
 }
 
 .menu__buscador__barra {
     display: flex;
-    align-items: stretch;
-    border-radius: 25px;
     width: 500px;
+    /* Ancho fijo de la barra de búsqueda */
+    border-radius: 25px;
     height: 24px;
-    padding: 8px 16px 8px 16px;
+    padding: 8px 16px;
+    /* Elimina el padding derecho e izquierdo */
     background-color: #F5F5F5;
     overflow: hidden;
 }
@@ -31,16 +40,15 @@ button {
 .menu__buscador__input {
     border: none;
     background-color: transparent;
-    text-align: center;
+    text-align: initial;
     font-size: 1rem;
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
 }
-
 
 .busqueda__boton {
     border: none;
     background-color: transparent;
-    margin-left: auto;
-    /* Esto alinea el botón a la derecha dentro del contenedor */
 }
 
 .menu__btn_login {
@@ -51,29 +59,50 @@ button {
     text-align: center;
     font-size: 16px;
     line-height: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 @media (min-width: 768px) {
 
-    .menu__logo {
-        width: 100px;
-    }
-    .img_logo {
-        width: 100px;
-    }
-    .menu__buscador{
-        width: 340px;
-    }
-    .menu__btn_login{
-        width: 134px;
-        height: 40px;
-        font-size: 14px;
-        text-align: center;
-        padding-bottom: 6px;
+    @media (max-width: 768px) {
+        .menu__container {
+            margin: 32px;
+            /* Margen de 32px en todos los lados */
+            align-items: center;
+            justify-content: space-around;
+        }
 
+        .menu__logo {
+            width: 100px;
+            /* Ancho del logo de 100px */
+        }
+
+        .img_logo {
+            width: 100px;
+            /* Ancho de la imagen del logo de 100px */
+        }
+
+        .menu__buscador {
+            width: 340px;
+            /* Ancho de la barra de búsqueda de 340px */
+        }
+
+        .menu__buscador__barra {
+            width: 272px;
+            /* Ancho de la barra de búsqueda de 272px */
+        }
+
+        .menu__btn_login {
+            width: 134px;
+            /* Ancho del botón de inicio de sesión de 134px */
+            height: 40px;
+            font-size: 14px;
+            text-align: center;
+            padding-bottom: 6px;
+        }
     }
+
 }
 
-@media (min-width: 425px) {
-
-}
+@media (min-width: 425px) {}
