@@ -1,12 +1,14 @@
-.menu__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 150px 40px 150px;
-    gap:0
+button {
+    font-family: 'Raleway';
+    text-align: center;
 }
 
+
+
 .menu__logo {
+    width: 200px;
+}
+.img_logo {
     width: 200px;
 }
 
@@ -51,7 +53,27 @@
     line-height: 50px;
 }
 
+@media (min-width: 768px) {
 
-.img_logo {
-    width: 176px;
+    .menu__logo {
+        width: 100px;
+    }
+    .img_logo {
+        width: 100px;
+    }
+    .menu__buscador{
+        width: 340px;
+    }
+    .menu__btn_login{
+        width: 134px;
+        height: 40px;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 6px;
+
+    }
+}
+
+@media (min-width: 425px) {
+
 }
