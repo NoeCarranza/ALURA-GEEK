@@ -8,3 +8,15 @@
 .footer__img {
     width: 50px;
 }
+
+
+@media (min-width: 768px) {
+    .footer__rodape{
+        font-size: 0.8rem;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .footer__img {
+        width: 30px;
+    }
+}
