@@ -73,8 +73,34 @@ button {
 
 }
 
-@media (min-width: 768px) {
+.login{
+    background-color: rgba(245, 245, 245, 1);
+    padding: 92px 0 92px 0;
+}
 
+
+@media (min-width: 1024px) {
+.insumos {
+    width: 100%;
+}
+
+
+.menu_inferior {
+    display: flex;
+    background-color: rgba(234, 242, 253, 1);
+    width: 100%;
+
+}
+
+.login{
+    background-color: rgba(245, 245, 245, 1);
+    padding: 92px 0 92px 0;
+}
+}
+@media (min-width: 768px) {
+    .login {
+        padding: 0;
+    }
     .menu__container{
         display: flex;
         margin: 16px 32px 16px 32px;
