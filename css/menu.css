@@ -106,5 +106,48 @@ button {
     }
 
 }
+@media (min-width: 425px) {
+    .menu__container {
+        display: flex;
+        padding: 0;
+        margin: 16px;
+        justify-content: space-between;
+    }
+    .img_logo {
+        width: 100px;
+        order: 1;
+    }
+    .menu__buscador {
+        order: 3;
+        width: 60px;
+    }
+    .menu__buscador__input {
+        display: none;
+    }
+    .menu__buscador__barra {
+        background: transparent;
+        padding: 0;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .menu__btn_login {
+        width: 130px;
+        order: 2;
+        padding: 0;
+        border: 2px solid;
+    }
+    .busqueda__boton {
+        padding: 0;
+    }
+    .buscador__imagen{
+        width: 30px;
+    }
+    input{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
 
-@media (min-width: 425px) {}
+

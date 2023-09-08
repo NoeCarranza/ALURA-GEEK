@@ -59,13 +59,7 @@ button {
     font-family: 'Raleway';
     text-align: center;
 }
-.menu__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 150px 40px 150px;
-    gap:0;
-}
+
 .promociones {
     background-image: url(assets/Hero.png);
     background-size:cover;
@@ -100,5 +94,4 @@ button {
 }
 
 @media (min-width: 425px) {
-
 }
