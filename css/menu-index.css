@@ -6,58 +6,69 @@ button {
 }
 .menu__container {
     display: flex;
-    flex-direction: row;
+    padding: 0;
+    margin: 29px;
     justify-content: space-between;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 360px;
 }
-
 .img_logo {
     width: 100px;
+    order: 1;
 }
-
 .menu__buscador {
+    order: 3;
+    width: 60px;
+}
+.menu__buscador__input {
     display: none;
 }
-
 .menu__buscador__barra {
+    background: transparent;
+    padding: 0;
     display: flex;
+    justify-content: end;
+    width: 100%;
 }
-
-.menu__buscador__input {
-    display: flex;
-    border: none;
-    background-color: transparent;
-    text-align: initial;
-    font-size: 1rem;
-}
-
-.busqueda__boton {
-    border: none;
-    background-color: transparent;
-}
-
 .menu__btn_login {
-    border: 1.5px solid #2A7AE4;
-    color: #2A7AE4;
-    width: 160px;
-    height: 50px;
+    width: 130px;
+    order: 2;
+    padding: 0;
+    border: 2px solid #2A7AE4;
     text-align: center;
-    font-size: 16px;
-    line-height: 50px;
 }
 @media (min-width: 768px) {
-    .menu__container{
-        margin: 22px 32px 22px 32px;
+    .menu__container {
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 16px 32px 16px 32px;
     }
-    .menu__buscador__barra{
-    width: 272px;
+
+    .menu__logo {
+        width: 170px;
+        order: 1;
     }
-    
+
+    .img_logo {
+        width: 170px;
+    }
+
+    .menu__buscador {
+        flex-grow: 2;
+        width: 340px;
+        order: 2;
+    }
+
+    .menu__buscador__barra {
+        width: 370px;
+        background-color: #F5F5F5;
+        border-radius: 25px;
+        margin-left: 16px;
+        padding: 8px;
+    }
+
 }
+    
+
 @media (min-width: 1024px) {
 .menu__container {
     margin: 32px 152px;

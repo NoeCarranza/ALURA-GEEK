@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    width: 100%;
 }
 
 ol,
@@ -61,7 +62,7 @@ button {
 }
 
 .menu{
-    max-width: 425px;
+    width: 100%;
 }
 .insumos {
     width: 100%;
@@ -87,6 +88,9 @@ button {
     width: 100%;
 }
 @media (min-width: 768px) {
+    .menu{
+        width: 100%;
+    }
     .login {
         padding: 0;
     }

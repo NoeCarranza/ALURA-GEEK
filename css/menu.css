@@ -9,7 +9,7 @@ button {
 .menu__container {
     display: flex;
     padding: 0;
-    margin: 16px;
+    margin: 29px;
     justify-content: space-between;
 }
 .img_logo {
@@ -52,37 +52,37 @@ input{
 }
 @media (min-width: 768px) {
         .menu__container {
-            margin: 32px;
-            /* Margen de 32px en todos los lados */
             align-items: center;
             justify-content: space-around;
+            margin: 0;
+            padding: 16px 32px 16px 32px;
         }
 
         .menu__logo {
-            width: 100px;
-            /* Ancho del logo de 100px */
+            width: 170px;
+            order: 1;
         }
 
         .img_logo {
-            width: 100px;
-            /* Ancho de la imagen del logo de 100px */
+            width: 170px;
         }
 
         .menu__buscador {
             flex-grow: 2;
-            margin-left: 16px;
             width: 340px;
-            /* Ancho de la barra de búsqueda de 340px */
+            order: 2;
         }
 
         .menu__buscador__barra {
-            width: 272px;
-            /* Ancho de la barra de búsqueda de 272px */
+            width: 370px;
+            background-color: #F5F5F5;
+            border-radius: 25px;
+            margin-left: 16px;
+            padding: 8px;
         }
 
         .menu__btn_login {
             width: 134px;
-            /* Ancho del botón de inicio de sesión de 134px */
             height: 40px;
             font-size: 14px;
             text-align: center;
@@ -92,8 +92,9 @@ input{
 
 @media (min-width: 1024px) {
     .menu__container {
-        margin: 32px 152px;
+        margin: 32px 152px 18px 152px;
         display: flex;
+        padding: 0;
         justify-content: space-between;
         align-items: center;
     }

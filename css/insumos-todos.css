@@ -1,0 +1,160 @@
+.insumos {
+    width: 100%;
+    margin: 0;
+    background-color:#F5F5F5;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+.insumos__container {
+    padding: 32px;
+}
+
+
+.insumos__todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.insumos__imagenes {
+    width: 176px;
+    height: 174px;
+}
+
+.boton__container {
+    display: inline-block;
+    position: relative;
+}
+
+.boton__eliminar {
+    position: absolute;
+    bottom: 140px;
+    left: -70px;
+    cursor: pointer;
+}
+.boton__editar {
+    position: absolute;
+    bottom: 140px;
+    left: -40px;
+    cursor: pointer;
+}
+
+.insumos_descripcion {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 0;
+    text-align: left;
+    width: 170px;
+}
+
+.insumos__precio {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .insumos__titulo{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .insumos__todos {
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+        justify-items: center;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .insumos__imagenes {
+        width: 156px;
+        height: 154px;
+    }
+    
+    .boton__eliminar {
+        position: absolute;
+        bottom: 125px;
+        left: -70px;
+        cursor: pointer;
+    }
+    .boton__editar {
+        position: absolute;
+        bottom: 125px;
+        left: -30px;
+        cursor: pointer;
+    }
+    
+    .insumos_descripcion {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin: 0;
+        text-align: left;
+        width: 170px;
+    }
+    
+    .insumos__precio {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .insumos__container{
+        padding: 64px 152px 64px 152px;
+    }
+    .insumos__titulo{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    .insumos__todos {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px;
+        justify-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .insumos__imagenes {
+        width: 176px;
+        height: 174px;
+    }
+    
+    .boton__eliminar {
+        position: absolute;
+        bottom: 125px;
+        left: -70px;
+        cursor: pointer;
+    }
+    .boton__editar {
+        position: absolute;
+        bottom: 125px;
+        left: -30px;
+        cursor: pointer;
+    }
+    
+    .insumos_descripcion {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin: 0;
+        text-align: left;
+        width: 170px;
+    }
+    
+    .insumos__precio {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+}
