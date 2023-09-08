@@ -82,10 +82,9 @@ button {
     width: 100%;
 }
 .contacto{
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 16px;
-    width: 100%;
 }
 @media (min-width: 768px) {
     .menu{

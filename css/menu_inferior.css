@@ -4,13 +4,11 @@ input{
 .menu__inferior__container{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 12px;
+    padding: 0;
     flex-direction: column;
     align-items: center;
     margin: 0;
-    gap: 32px;
-    padding: 29px;
-    width: 367px;
+    justify-items: center;
 }
 
 .inferior__logo{
@@ -36,7 +34,7 @@ input{
 
 .contacto__input, 
 .contacto__input__mensaje {
-    width: 365px;
+    width: 300px;
     height: 41px;
     flex-shrink: 0;
     border-radius: 4px;
