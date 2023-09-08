@@ -60,12 +60,6 @@ button {
     text-align: center;
 }
 
-.promociones {
-    background-image: url(assets/Hero.png);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .insumos {
     width: 100%;
@@ -94,4 +88,7 @@ button {
 }
 
 @media (min-width: 425px) {
+    .promociones{
+        margin: 0;
+    }
 }

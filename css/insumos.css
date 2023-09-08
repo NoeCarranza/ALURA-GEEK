@@ -1,4 +1,4 @@
-@media (min-width: 1040px) {}
+@media (min-width: 1024px) {
 
 .insumos__container {
     display: flex;
@@ -73,7 +73,7 @@
     color: #2A7AE4;
     margin: 0;
 }
-
+}
 @media (min-width: 768px) and (max-width: 1039px) {
 
     .insumos__container{

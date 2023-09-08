@@ -3,10 +3,13 @@
     background-color: #9ec6f9;
     text-align: center;
     padding-top: 20px;
+    font-size: 0.5rem;
+    width: 100%;
+    margin: 0;
 }
 
 .footer__img {
-    width: 50px;
+    width: 30px;
 }
 
 
@@ -18,5 +21,16 @@
     }
     .footer__img {
         width: 30px;
+    }
+}
+@media (min-width: 1024px) {
+    .footer__rodape {
+        background-color: #9ec6f9;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .footer__img {
+        width: 50px;
     }
 }

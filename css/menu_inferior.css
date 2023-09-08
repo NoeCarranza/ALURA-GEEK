@@ -1,4 +1,4 @@
-/* Estilos para pantallas grandes */
+
 .menu__inferior__container {
     display: flex;
     align-items: flex-start;
@@ -65,9 +65,6 @@
     margin-bottom: 20px;
     font-size: 1rem;
 }
-
-/* Media query para pantallas de 768px o menos */
-/* Estilos para pantallas grandes */
 .menu__inferior__container {
     display: flex;
     align-items: flex-start;
@@ -134,7 +131,6 @@
     margin-bottom: 20px;
     font-size: 1rem;
 }
-
 @media (max-width: 768px) {
     .menu__inferior__container {
         display: grid;

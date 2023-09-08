@@ -1,73 +1,56 @@
 button {
     font-family: 'Raleway';
     text-align: center;
+    border: 0;
+    background-color: transparent;
 }
 
 
 .menu__container {
-    margin: 32px 152px;
-    /* 32px arriba y abajo, 152px izquierda y derecha */
     display: flex;
-    justify-content: space-between;
-    /* Distribuye los elementos al principio y al final */
-    align-items: center;
-    /* Alinea verticalmente al centro */
-}
-
-.menu__logo {
-    margin: 0;
     padding: 0;
+    margin: 16px;
+    justify-content: space-between;
 }
-.img_logo{
-    width: 150px;
+.img_logo {
+    width: 100px;
+    order: 1;
 }
 .menu__buscador {
-    display: flex;
-    padding: 0;
-    width: 100%;
+    order: 3;
+    width: 60px;
 }
-
-.menu__buscador__barra {
-    display: flex;
-    width: 500px;
-    /* Ancho fijo de la barra de búsqueda */
-    border-radius: 25px;
-    height: 24px;
-    padding: 8px 16px;
-    /* Elimina el padding derecho e izquierdo */
-    background-color: #F5F5F5;
-    overflow: hidden;
-}
-
 .menu__buscador__input {
-    border: none;
-    background-color: transparent;
-    text-align: initial;
-    font-size: 1rem;
+    display: none;
+}
+.menu__buscador__barra {
+    background: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: end;
     width: 100%;
-    /* Ocupa todo el ancho disponible */
 }
-
-.busqueda__boton {
-    border: none;
-    background-color: transparent;
-}
-
 .menu__btn_login {
-    border: 1.5px solid #2A7AE4;
-    color: #2A7AE4;
-    width: 160px;
-    height: 50px;
+    width: 130px;
+    order: 2;
+    padding: 0;
+    border: 2px solid #2A7AE4;
     text-align: center;
-    font-size: 16px;
-    line-height: 50px;
-    margin: 0;
+}
+.busqueda__boton {
     padding: 0;
 }
-
+.buscador__imagen{
+    width: 30px;
+}
+input{
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-color: #2A7AE4;
+}
 @media (min-width: 768px) {
-
-    @media (max-width: 768px) {
         .menu__container {
             margin: 32px;
             /* Margen de 32px en todos los lados */
@@ -86,6 +69,8 @@ button {
         }
 
         .menu__buscador {
+            flex-grow: 2;
+            margin-left: 16px;
             width: 340px;
             /* Ancho de la barra de búsqueda de 340px */
         }
@@ -105,49 +90,63 @@ button {
         }
     }
 
-}
-@media (min-width: 425px) {
+@media (min-width: 1024px) {
     .menu__container {
+        margin: 32px 152px;
         display: flex;
-        padding: 0;
-        margin: 16px;
         justify-content: space-between;
+        align-items: center;
     }
-    .img_logo {
-        width: 100px;
-        order: 1;
+    
+    .menu__logo {
+        padding: 0;
+        margin: 0;
+        width: 170px;
+    }
+    .img_logo{
+        width: 150px;
     }
     .menu__buscador {
-        order: 3;
-        width: 60px;
-    }
-    .menu__buscador__input {
-        display: none;
-    }
-    .menu__buscador__barra {
-        background: transparent;
-        padding: 0;
         display: flex;
-        justify-content: end;
+        padding: 0;
+        flex-grow: 2;
+        margin-left: 16px;
+    }
+    
+    .menu__buscador__barra {
+        display: flex;
+        width: 500px;
+        border-radius: 25px;
+        height: 24px;
+        padding: 8px 16px;
+        background-color: #F5F5F5;
+        overflow: hidden;
+    }
+    
+    .menu__buscador__input {
+        display: flex;
+        border: none;
+        background-color: transparent;
+        text-align: initial;
+        font-size: 1rem;
         width: 100%;
     }
-    .menu__btn_login {
-        width: 130px;
-        order: 2;
-        padding: 0;
-        border: 2px solid;
-    }
+    
     .busqueda__boton {
-        padding: 0;
+        border: none;
+        background-color: transparent;
     }
-    .buscador__imagen{
-        width: 30px;
-    }
-    input{
-        font-size: 16px;
-        font-weight: bold;
+    
+    .menu__btn_login {
+        border: 1.5px solid #2A7AE4;
+        color: #2A7AE4;
+        width: 160px;
+        height: 50px;
         text-align: center;
+        font-size: 16px;
+        line-height: 50px;
+        margin: 0;
+        padding: 0;
     }
 }
-
 

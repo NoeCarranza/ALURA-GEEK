@@ -1,6 +1,47 @@
 
+
+
+@media(min-width: 425px) {
+    .promociones__container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .promociones__titulo{
+        margin-left: 16px;
+        font-size: 1.5rem;
+        padding: 0;
+        width: 100%;
+    }
+    .promociones__texto{
+        margin-left: 16px;
+        font-size: 1rem;
+        padding: 0;
+    }
+    .promociones__btn{
+        margin-left: 16px;
+
+    }
+    .promociones__imagen {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+@media (min-width:1040px) {
 .promociones__container {
     width: 100%;
+}
+.promociones__imagen {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    z-index: -1; 
 }
 
 .promociones__titulo {
@@ -9,6 +50,7 @@
     padding-top: 150px;
     margin: 0;
     margin-left: 150px;
+    width: 100%;
 }
 
 .promociones__texto {
@@ -32,6 +74,7 @@
 }
 
 @media (min-width: 768px) {
+
     .promociones__container {
         width: 768px;
         padding: 32px;
@@ -51,7 +94,4 @@
         margin: 0;
     }
 }
-
-@media (min-width: 425px) {
-
 }
