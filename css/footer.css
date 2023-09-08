@@ -1,16 +1,19 @@
 
 .footer__rodape {
     background-color: #9ec6f9;
+    font-size: 1rem;
     text-align: center;
-    padding-top: 20px;
-    font-size: 0.5rem;
-    width: 100%;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .footer__img {
     width: 30px;
 }
+
 
 
 @media (min-width: 768px) {

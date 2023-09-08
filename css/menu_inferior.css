@@ -17,10 +17,11 @@
 }
 .inferior__menu__lista{
     text-align: center;
-    gap:16px;
     font-size: 1rem;
 }
-
+.menu__lista__descripción{
+    margin-bottom: 12px;
+}
 .contacto__titulo {
     font-size: 1rem;
     align-items: center;
