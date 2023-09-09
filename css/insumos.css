@@ -67,12 +67,13 @@
 
 @media (min-width: 768px) {
 
-    .insumos__container{
+    .insumos__container {
         width: 768px;
         display: flex;
         flex-direction: column;
         margin-bottom: 60px;
     }
+
     .insumos__starwars,
     .insumos__consolas,
     .insumos__otros {
@@ -81,12 +82,66 @@
         gap: 16px;
         margin-left: 5px;
     }
+
     .insumos__imagenes {
         width: 166px;
         height: 164px;
     }
 
-    .insumos__titulo{
+    .insumos__titulo {
         width: 730px;
     }
+}
+
+@media (min-width: 1440px) {
+    .insumos__container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insumos__titulo{
+        width: 1150px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .insumos__starwars,
+    .insumos__consolas,
+    .insumos__otros {
+        display: grid;
+        grid-template-columns: repeat(6, 180px);
+        gap: 10px;
+    }
+
+    .insumos__starwars .insumos__producto__starwars:nth-last-child(-n+2){
+    display: block;
+    }
+    .insumos__otros .insumos__producto__otros:nth-last-child(-n+2){
+        display: block;
+    }
+    .insumos__consolas .insumos__producto__consolas:nth-last-child(-n+2) {
+        display: block;
+    }
+
+    .insumos__imagenes {
+        width: 176px;
+        height: 174px;
+    }
+
+    .insumos_descripcion {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin: 0;
+        text-align: left;
+        width: 170px;
+    }
+
+    .insumos__precio {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
 }

@@ -107,12 +107,11 @@ span{
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
 .insumos {
     width: 100%;
+    margin-top: 150px;
 }
-
-
 
 .login{
     background-color: rgba(245, 245, 245, 1);

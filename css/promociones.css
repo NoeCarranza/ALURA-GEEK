@@ -81,35 +81,43 @@
 
 }
 
-@media (min-width:1040px) {
+@media (min-width:1440px) {
     .promociones__container {
         width: 100%;
         display: flex;
     }
+
+    .promociones__imagen{
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
     .promociones__titulo {
         color: #F5F5F5;
-        position: relative;
-        top: 180px;
+        position: absolute;
+        top: 290px;
         font-size: 3rem;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .promociones__texto {
         font-weight: lighter;
         font-size: 2rem;
-        position: relative;
-        top: 180px;
-        margin-left: 20px;
+        position: absolute;
+        top: 360px;
+        margin-left: 30px;
     }
     
     .promociones__btn {
         border: none;
         width: 180px;
-        margin-left: 20px;
+        margin-left: 30px;
         height: 60px;
         font-size: 1.5rem;
-        position: relative;
-        top: 180px;
+        position: absolute;
+        top: 410px;
     
     }
 }

@@ -106,9 +106,9 @@ input{
         }
     }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     .menu__container {
-        margin: 32px 152px 18px 152px;
+        margin: 32px 152px 32px 152px;
         display: flex;
         padding: 0;
         justify-content: space-between;
