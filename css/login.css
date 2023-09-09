@@ -82,7 +82,7 @@ input {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     .login__container {
         display: flex;
         flex-direction: column;
@@ -94,13 +94,18 @@ input {
         display: flex;
         align-items: center;
         flex-direction: column;
+        gap: 40px;
     }
     .login__input__padre{
         width: 480px;
     }
-    .login__input,
-    .login__input__mensaje {
+    .login__input{
         height: 40px;
         width: 475px;
     }
+    .login__input__mensaje {
+        height: 100px;
+        width: 475px;
+    }
+
 }

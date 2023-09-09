@@ -95,13 +95,19 @@ input {
         height: 40px;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     .login__container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
 
+    .login__input__correo{
+        width: 80%;
+    }
+    .login__input__padre{
+        width: 100%
     }
     .login__texto{
         font-size: 1.5rem;
@@ -110,10 +116,13 @@ input {
     .login__input__correo{
         width: 50%;
     }
+    .texto__input__{
+        width: 800px;
+    }
     .login__input,
     .login__input__mensaje {
         height: 40px;
-        width: 100%;
+        width: 750px;
         font-size: 1rem;
     }
     .login__btn {
