@@ -1,0 +1,158 @@
+button {
+    font-family: 'Raleway';
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+}
+.menu__container {
+    display: flex;
+    padding: 0;
+    margin: 16px;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_logo {
+    width: 100px;
+    order: 1;
+    margin-top: 6px;
+}
+.menu__buscador {
+    order: 3;
+    width: 60px;
+}
+.menu__buscador__input {
+    display: none;
+}
+.menu__buscador__barra {
+    display: none;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.menu__btn_login {
+    width: 160px;
+    height: 40px;
+    order: 2;
+    border: 2px solid #2A7AE4;
+}
+
+
+.texto__btn_login{
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-left: 4px;
+}
+.busqueda__boton {
+    padding: 0;
+}
+.buscador__imagen{
+    width: 30px;
+}
+
+@media (min-width: 768px) {
+        .menu__container {
+            align-items: center;
+            justify-content: space-around;
+            width: 680px;
+        }
+
+        .menu__logo {
+            width: 100px;
+            order: 1;
+        }
+
+        .img_logo {
+            width: 100px;
+        }
+
+        .menu__buscador {
+            display: flex;
+            flex-grow: 2;
+            width: 340px;
+            order: 2;
+        }
+
+        .menu__buscador__barra {
+            display: flex;
+            width: 250px;
+            height: 25px;
+            align-items: center;
+            background-color: #F5F5F5;
+            border-radius: 25px;
+            margin-left: 16px;
+            padding: 8px;
+        }
+        .busqueda__boton{
+            height: 30px;
+        }
+        .menu__btn_login {
+            width: 160px;
+            height: 40px;
+        }
+    }
+
+@media (min-width: 1024px) {
+    .menu__container {
+        margin: 32px 152px 18px 152px;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu__logo {
+        padding: 0;
+        margin: 0;
+        width: 170px;
+    }
+    .img_logo{
+        width: 150px;
+    }
+    .menu__buscador {
+        display: flex;
+        padding: 0;
+        flex-grow: 2;
+        margin-left: 16px;
+    }
+    
+    .menu__buscador__barra {
+        display: flex;
+        width: 500px;
+        border-radius: 25px;
+        height: 24px;
+        padding: 8px 16px;
+        background-color: #F5F5F5;
+        overflow: hidden;
+    }
+    
+    .menu__buscador__input {
+        display: flex;
+        border: none;
+        background-color: transparent;
+        text-align: initial;
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+    .busqueda__boton {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .menu__btn_login {
+        border: 1.5px solid #2A7AE4;
+        color: #2A7AE4;
+        width: 160px;
+        height: 50px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+}
+

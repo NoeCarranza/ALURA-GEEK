@@ -61,6 +61,9 @@ button {
     text-align: center;
 }
 
+span{
+    text-align: start;
+}
 .menu{
     width: 100%;
 }
@@ -76,9 +79,8 @@ button {
     width: 100%;
 }
 
-.login{
+.login, .productos{
     background-color: rgba(245, 245, 245, 1);
-    padding: 92px 0 92px 0;
     width: 100%;
 }
 .contacto{
@@ -114,7 +116,8 @@ button {
 
 .login{
     background-color: rgba(245, 245, 245, 1);
-    padding: 92px 0 92px 0;
+    padding: 50px 0 50px 0;
+
 }
 }
 

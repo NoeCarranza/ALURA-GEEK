@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="assets/jedi-solid.svg" class="favicon">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/menu-index.css">
+    <link rel="stylesheet" href="css/menu-nuevo-productos.css">
     <link rel="stylesheet" href="css/nuevo-producto.css">
     <link rel="stylesheet" href="css/menu_inferior.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -31,26 +31,42 @@
                 </div>
             </div>
             <div class="menu__btn_login">
-                <input type="submit" value="Menú Administrador">
+                <input type="submit" value="Menú Administrador" class="texto__btn_login">
             </div>
         </div>
     </section>
 
-<section class="login">
-    <div class="login__container">
-        <div class="login__titulo">
-            <h1 class="login__texto">Agregar nuevo producto</h1>
+    <section class="login">
+        <div class="login__container">
+            <div class="login__titulo">
+                <h1 class="login__texto">Agregar nuevo producto</h1>
+            </div>
+            <div class="login__input__correo">
+                <div class="login__input__padre">
+                    <span class="texto__input">URL de imagen</span>
+                    <input type="text" class="login__input" required="required">
+                </div>
+                <div class="login__input__padre">
+                    <span class="texto__input">Categoría</span>
+                    <input type="text" class="login__input" required="required">
+                </div>
+                <div class="login__input__padre">
+                    <span class="texto__input">Nombre del producto</span>
+                    <input type="text" class="login__input" required="required">
+
+                </div>
+                <div class="login__input__padre">
+                    <span class="texto__input">Precio del producto</span>
+                    <input type="text" class="login__input" required="required">
+                </div>
+                <div class="login__input__padre">
+                    <span class="texto__input">Descripción del producto</span>
+                    <input type="password" class="texto__input__descripcion" required="required">
+                </div>
+                <button class="login__btn">Agregar producto</button>
+            </div>
         </div>
-        <div class="login__input__correo">
-            <input type="text" class="login__input">
-            <input type="text" class="login__input">
-            <input type="text" class="login__input">
-            <input type="text" class="login__input">
-            <input type="password" class="login__input__mensaje">
-            <button class="login__btn">Entrar</button>
-        </div>
-    </div> 
-</section>
+    </section>
 
     <section class="menu_inferior">
         <div class="menu__inferior__container">
