@@ -74,19 +74,35 @@ input{
         }
 
         .menu__buscador__barra {
-            width: 370px;
+            width: 300px;
             background-color: #F5F5F5;
             border-radius: 25px;
             margin-left: 16px;
             padding: 8px;
+            overflow: hidden;
+        }
+
+        .menu__buscador__input {
+            display: flex;
+            border: none;
+            background-color: transparent;
+            text-align: initial;
+            font-size: 1rem;
+            font-weight: lighter;
+            width: 100%;
         }
 
         .menu__btn_login {
             width: 134px;
             height: 40px;
             font-size: 14px;
-            text-align: center;
             padding-bottom: 6px;
+            margin-left: 16px;
+        }
+        .boton_login{
+            text-align: center;
+            padding-top: 14px;
+
         }
     }
 

@@ -1,21 +1,12 @@
-@media (min-width: 1024px) {
-
 .insumos__container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    justify-content: space-between;
-    margin: 65px 140px;
-
+    width: 100%;
 }
 
 .insumos__titulo {
+    margin: 60px 30px 20px;
     display: flex;
-    margin-left: 20px;
-    margin-top: 64px;
-    flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
+    width: 90%;
 }
 
 .insumos__ver_todo {
@@ -27,27 +18,27 @@
     align-items: center;
 }
 
-
-.insumos__ver__producto {
-    font-size: 0.6rem;
-    color: #2A7AE4;
-    margin: 0;
-
+.insumos__starwars .insumos__producto__starwars:nth-last-child(-n+2) {
+    display: none;
 }
 
-.insumos__flecha {
-    width: 24px;
-    height: 24px;
+.insumos__consolas .insumos__producto__consolas:nth-last-child(-n+2) {
+    display: none;
+}
+
+.insumos__otros .insumos__producto__otros:nth-last-child(-n+2) {
+    display: none;
 }
 
 .insumos__starwars,
 .insumos__consolas,
 .insumos__otros {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    margin: 0;
+    display: grid;
+    grid-template-columns: 185px 185px;
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
+
 }
 
 .insumos__imagenes {
@@ -69,54 +60,33 @@
 }
 
 .insumos__ver__producto {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: #2A7AE4;
     margin: 0;
 }
-}
-@media (min-width: 768px) and (max-width: 1039px) {
+
+@media (min-width: 768px) {
 
     .insumos__container{
+        width: 768px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        margin: 12px;
+        margin-bottom: 60px;
     }
-    /* Ocultar los dos últimos elementos en .insumos__starwars */
-    .insumos__starwars .insumos__producto__starwars:nth-last-child(-n+2) {
-        display: none;
-    }
-
-    /* Ocultar los dos últimos elementos en .insumos__consolas */
-    .insumos__consolas .insumos__producto__consolas:nth-last-child(-n+2) {
-        display: none;
-    }
-
-    /* Ocultar los dos últimos elementos en .insumos__otros */
-    .insumos__otros .insumos__producto__otros:nth-last-child(-n+2) {
-        display: none;
-    }
-
-    /* Estilo para las imágenes en los productos con gap */
-    .insumos__starwars .insumos__imagenes,
-    .insumos__consolas .insumos__imagenes,
-    .insumos__otros .insumos__imagenes {
-        width: 164px;
-        height: 174px;
-    }
-
-    /* Margen y gap para los contenedores de categorías */
     .insumos__starwars,
     .insumos__consolas,
     .insumos__otros {
-        gap: 12px;
+        display: grid;
+        grid-template-columns: repeat(4, 167px);
+        gap: 16px;
+        margin-left: 5px;
     }
-    .insumos__titulo {
-        justify-content: space-between;
-        padding: 0;
-        margin: 32px 0 0 0;
+    .insumos__imagenes {
+        width: 166px;
+        height: 164px;
     }
-    .insumos__ver_todo{
-        width: auto;
+
+    .insumos__titulo{
+        width: 730px;
     }
 }

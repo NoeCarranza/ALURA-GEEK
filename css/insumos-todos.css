@@ -12,7 +12,22 @@ h2 {
     padding: 32px;
 }
 
+.insumos__titulo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
 
+.agregar__btn{
+    display: flex;
+    width: 145px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    background: var(--azul-100, #2A7AE4);
+}
 .insumos__todos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,6 +76,7 @@ h2 {
 @media (min-width: 768px) {
     .insumos__titulo{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
     }
@@ -112,6 +128,7 @@ h2 {
     }
     .insumos__titulo{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         margin-right: 15px;
@@ -134,13 +151,13 @@ h2 {
     
     .boton__eliminar {
         position: absolute;
-        bottom: 125px;
+        bottom: 145px;
         left: -70px;
         cursor: pointer;
     }
     .boton__editar {
         position: absolute;
-        bottom: 125px;
+        bottom: 145px;
         left: -30px;
         cursor: pointer;
     }
