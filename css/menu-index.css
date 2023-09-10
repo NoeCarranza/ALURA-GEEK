@@ -81,12 +81,11 @@ input{
             border-radius: 25px;
             margin-left: 16px;
             padding: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
         }
-        .buscador__imagen{
-            position: relative;
-            padding-top: 5px;
-            right: 40px;
-        }
+
         .menu__btn_login {
             width: 134px;
             height: 40px;
@@ -122,12 +121,13 @@ input{
     
     .menu__buscador__barra {
         display: flex;
-        width: 500px;
+        width:500px;
         border-radius: 25px;
         height: 24px;
         padding: 8px 16px;
         background-color: #F5F5F5;
         overflow: hidden;
+        align-items: center;
     }
     
     .menu__buscador__input {
