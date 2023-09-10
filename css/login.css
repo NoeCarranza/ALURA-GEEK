@@ -28,6 +28,10 @@ input {
     gap: 16px;
 }
 
+.login__botones{
+
+    background-color: transparent;
+}
 .login__input__padre{
     display: flex;
     padding-top: 8px;
@@ -39,14 +43,9 @@ input {
     border-radius: 4px;
     width: 350px;
     margin: 20px;
-    background: var(--preto-branco, #FFF);
+    height: 40px;
 }
 
-.texto__input{
-    margin-left:12px;
-    font-size: 0.8rem;
-    color: #A2A2A2;
-}
 
 .login__input, .login__input__mensaje{
     height: 100%;
@@ -75,12 +74,45 @@ input {
         display: flex;
         align-items: center;
         flex-direction: column;
+        gap: 30px;
     }
+
+    .login__input__padre{
+    width: 300px;
+    background-color: transparent;
+    }
+
     .login__input,
     .login__input__mensaje {
-        height: 40px;
+        height: 60px;
+        width: 100%;
+    }
+
+    
+    .login__input__padre{
+        width: 490px;
+        margin: 20px;
+        margin: 0;
+
+    }
+    
+    .texto__input{
+        margin-left:12px;
+        font-size: 0.8rem;
+        color: #A2A2A2;
+    }
+    
+    .login__input{
+        height: 100%;
+        width: 345px;
+    }
+    .login__input__mensaje{
+        height: 100%;
+        width: 350px;
     }
 }
+
+
 
 @media (min-width: 1440px) {
     .login__container {
@@ -89,23 +121,19 @@ input {
         padding: 32px;
         width: 100%;
     }
-
     .login__botones{
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 40px;
+        background-color: transparent;
     }
     .login__input__padre{
-        width: 480px;
+        width: 600px;
+        background: var(--preto-branco, #FFF);
     }
-    .login__input{
-        height: 40px;
-        width: 475px;
-    }
-    .login__input__mensaje {
-        height: 100px;
-        width: 475px;
+    .texto__input {
+        font-size: 1rem;
     }
 
 }
