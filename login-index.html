@@ -43,7 +43,7 @@
                     <input type="email" class="login__correo" placeholder="Escriba su correo" required>
                 </div>
                 <div class="login__input__padre">
-                    <input type="password" class="login__input__contraseña" placeholder="Escriba su contraseña" required minlength="6" maxlength="12">
+                    <input type="password" class="login__input__contraseña" placeholder="Escriba su contraseña" pattern="(?=.*[a-z])(?=*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" ttle="Al menos 6 caracteres, máximo 12 debe contener una letra minúscula, una mayúscula, un número y no debe contener caracteres especiales.">
                 </div>
                 <div class="login__input__boton">
                 <a href="index-productos.html"><button class="login__btn">Entrar</button></a>
