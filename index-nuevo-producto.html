@@ -36,36 +36,36 @@
         </div>
     </section>
 
-    <section class="nuevo__producto">
+    <section class="nuevo__producto" >
         <div class="nuevo__producto__container">
             <div class="nuevo__producto__titulo">
                 <h1 class="nuevo__producto__texto">Agregar nuevo producto</h1>
             </div>
-            <div class="nuevo__producto__input__correo">
+            <form class="nuevo__producto__input__correo" data-form>
                 <div class="nuevo__producto__padre">
                     <span class="producto__texto__input">URL de imagen</span>
-                    <input type="text" class="nuevo__producto__input" required="required">
+                    <input type="text" class="nuevo__producto__input" required="required" data-URL>
                 </div>
                 <div class="nuevo__producto__padre">
                     <span class="producto__texto__input">Categoría</span>
-                    <input type="text" class="nuevo__producto__input" required="required">
+                    <input type="text" class="nuevo__producto__input" required="required" data-categoria>
                 </div>
                 <div class="nuevo__producto__padre">
                     <span class="producto__texto__input">Nombre del producto</span>
-                    <input type="text" class="nuevo__producto__input" required="required">
+                    <input type="text" class="nuevo__producto__input" required="required" data-nombre>
 
                 </div>
                 <div class="nuevo__producto__padre">
                     <span class="producto__texto__input">Precio del producto</span>
-                    <input type="text" class="nuevo__producto__input" required="required">
+                    <input type="text" class="nuevo__producto__input" required="required" data-precio>
                 </div>
                 <div class="nuevo__producto__padre">
                     <span class="producto__texto__input">Descripción del producto</span>
-                    <input type="text" class="nuevo__producto__input" required="required">
+                    <input type="text" class="nuevo__producto__input" required="required" data-descripcion>
                 </div>
                 
-                <a href="index-productos.html"><button class="nuevo__producto__btn">Agregar producto</button></a>
-            </div>
+                <a><button class="nuevo__producto__btn">Agregar producto</button></a>
+            </form>
         </div>
     </section>
 
@@ -108,4 +108,7 @@
             <img src="assets/firma.png" class="footer__img">
         </div>
     </footer>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/controllers/regristro.controller.js" type="module"></script>
 </body>
