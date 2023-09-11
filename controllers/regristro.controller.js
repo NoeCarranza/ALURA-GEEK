@@ -10,8 +10,10 @@ formulario.addEventListener("submit",  (evento) =>{
     const precio = document.querySelector("[data-precio]").value
     const descripcion = document.querySelector("[data-descripcion]").value
     console.log(url, " - ", categoria, " - ",nombre, " - ",precio, " - ",descripcion);
-    productService.crearProducto(url,categoria,nombre,precio.descripcion).then(respuesta =>{
-        console.log(respuesta)
+    productService.crearProducto(url,categoria,nombre,precio.descripcion)
+    .then(respuesta =>{
+        window.location.href="/index-productos.html";
     }).catch(err => console.log(err))
 });
+
 
