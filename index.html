@@ -240,13 +240,13 @@
                 <h2 class="contacto__titulo">Hable con nosotros</h2>
                 <div class="login__input__padre">
                     <span class="texto__input">Nombre</span>
-                    <input type="text" class="contacto__input">
+                    <input type="text" class="contacto__input" required>
                 </div>
                 <div class="login__input__padre">
                 <span class="texto__input">Escriba su mensaje</span>
-                <input type="text" class="contacto__input__mensaje">
+                <input type="text" class="contacto__input__mensaje" required>
                 </div>
-                <button class="enviar__btn">Enviar mensaje</button>
+                <button class="enviar__btn" id="enviarMensaje">Enviar mensaje</button>
                 
             </div>
         </div>
@@ -265,6 +265,7 @@
     </footer>
 
 <script src="servicios/productos-servicios.js"></script>
+<script src="formulario-mensaje.js"></script>
 </body>
 
 </html>
