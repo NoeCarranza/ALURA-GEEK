@@ -9,8 +9,11 @@ button {
 .menu__container {
     display: flex;
     padding: 0;
-    margin: 29px;
     justify-content: space-between;
+    max-width: 350px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
 }
 .img_logo {
     width: 100px;
@@ -18,7 +21,6 @@ button {
 }
 .menu__buscador {
     order: 3;
-    width: 60px;
 }
 .menu__buscador__input {
     display: none;
