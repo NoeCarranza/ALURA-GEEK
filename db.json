@@ -4,163 +4,145 @@
       "name": "Taza Stormtrooper",
       "imageUrl": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1635&q=80",
       "price": "1500",
-      "id": 1
+      "categoria": "Star Wars",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "1"
     },
     {
       "name": "Cabezas imperiales",
       "imageURL": "https://images.unsplash.com/photo-1620950127852-92592960e363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1635&q=80",
       "price": "2500",
-      "id": 2
+      "categoria": "Star Wars",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "2"
     },
     {
       "name": "Muñeco Yoda",
       "imageURL": "https://images.unsplash.com/photo-1599002762948-19068b069803?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1644&q=80",
       "price": "3000",
-      "id": 3
+      "categoria": "Star Wars",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "3"
     },
     {
       "name": "Traje Stormtrooper",
       "imageURL": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
       "price": "30000",
-      "id": 4
+      "categoria": "Star Wars",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "4"
     },
     {
       "name": "Muñeco Grogu",
       "imageURL": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1624&q=80",
       "price": "10000",
-      "id": 5
+      "categoria": "Star Wars",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "5"
     },
     {
       "name": "Traje Kylo Ren",
       "imageURL": "https://images.unsplash.com/photo-1591927675938-b81b071d3e91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
       "price": "30000",
-      "id": 6
+      "categoria": "Star Wars",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "6"
     },
     {
       "name": "Control XBox",
       "imageURL": "https://f.rpp-noticias.io/2021/09/01/1138910alex-motoc-0powk6iairq-unsplashjpg.jpg",
       "price": "50000",
-      "id": 7
+      "categoria": "Consolas",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "7"
     },
     {
       "name": "SP5 con control",
       "imageURL": "https://s.yimg.com/ny/api/res/1.2/XTtZqjtPrqbOfjvo2N6t1A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/es/levelup_525/98fdce2ec0375ad9007894fdb92b8d1b",
       "price": "650000",
-      "id": 8
+      "categoria": "Consolas",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "8"
     },
     {
       "name": "Replica Nintendo",
       "imageURL": "https://www.infobae.com/new-resizer/kogJKhOV_JjHFcciRXTDHPNwL9k=/992x661/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/AGWHMRTIZNFOTDK2AJNDT6AU3E.jpg",
       "price": "3000",
-      "id": 9
+      "categoria": "Consolas",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "9"
     },
     {
       "name": "Switch inalámbrico",
       "imageURL": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/10/ehimetalor-akhere-unuabona-wa5z9o9fgjw-unsplash-scaled.jpg?resize=1200%2C800&quality=50&strip=all&ssl=1",
       "price": "70000",
-      "id": 10
+      "categoria": "Consolas",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "10"
     },
     {
       "name": "Xbox series X",
       "imageURL": "https://i.blogs.es/8bf826/captura-de-pantalla-2021-10-20-a-las-17.43.38/1366_2000.webp",
       "price": "3000000",
-      "id": 11
+      "categoria": "Consolas",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "11"
     },
     {
       "name": "Replica Gameboy",
       "imageURL": "https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
       "price": "30000",
-      "id": 12
+      "categoria": "Consolas",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "12"
     },
     {
       "name": "Remera Atari",
       "imageURL": "https://images.unsplash.com/photo-1589021818993-a1223f8f0f04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1645&q=80",
       "price": "4500",
-      "id": 13
+      "categoria": "Otros",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "13"
     },
     {
       "name": "Remera SNES",
       "imageURL": "https://www.latercera.com/resizer/KDYvI9qIwFAtzwQEDq7S5sQLbi0=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/EB2EOHWF4RGOHMTLHF4EEEH45U.jpg",
       "price": "4500",
-      "id": 14
+      "categoria": "Otros",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "14"
     },
     {
       "name": "Muñeco Sony",
       "imageURL": "https://aplicacionesyjuegosgratis.net/wp-content/uploads/2021/11/mejores-juegos-de-sonic-para-moviles-scaled.jpg",
       "price": "3000",
-      "id": 15
+      "categoria": "Otros",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "15"
     },
     {
       "name": "Reloj vintage",
       "imageURL": "https://trackpro.es/wp-content/uploads/publicidad-en-radio-web-post.jpg",
       "price": "15000",
-      "id": 16
+      "categoria": "Otros",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "16"
     },
     {
       "name": "PlayStation VR",
       "imageURL": "https://standfirst-worktechacademy-production.imgix.net/uploads/2020/04/uriel-soberanes-MxVkWPiJALs-unsplash-scaled.jpg?auto=compress,format&crop=faces,entropy,edges&fit=crop&q=75&w=683&h=1024",
       "price": "300000",
-      "id": 17
+      "categoria": "Otros",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "17"
     },
     {
       "name": "Traje Pikachu",
       "imageURL": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
       "price": "20000",
-      "id": 18
-    },
-    {
-      "url": "rye",
-      "categoria": "eryeryer",
-      "nombre": "eryery",
-      "id": "132a1a99-49f9-4264-9d69-d50ed2829ef5"
-    },
-    {
-      "url": "dfhd",
-      "categoria": "dfhfd",
-      "nombre": "dfhdfh",
-      "id": "eecd014d-1dec-4cb1-a1da-74ccca83e39e"
-    },
-    {
-      "url": "shgshg",
-      "categoria": "dfhfdh",
-      "nombre": "dfhfdhf",
-      "id": "1682e947-3afe-4e61-b84c-8fae32bbe782"
-    },
-    {
-      "url": "agfg",
-      "categoria": "shsdfhg",
-      "nombre": "asflhjj",
-      "id": "0922495c-68d4-4085-aec8-2f3aa77f64c0"
-    },
-    {
-      "url": "hdffdhd",
-      "categoria": "dhdfhfd",
-      "nombre": "dfhfdh",
-      "id": "b4f9f081-5f6f-4499-a348-3043ac117f2c"
-    },
-    {
-      "url": "hgfdhfd",
-      "categoria": "sgjeñ",
-      "nombre": "sdñgkjsdgñ",
-      "id": "8c7ef4c7-3a44-445f-8db2-069a85e5ff69"
-    },
-    {
-      "url": "A",
-      "categoria": "ASFD",
-      "nombre": "SDG",
-      "id": "77b9bf38-5eb0-47a1-871f-1da1f199e255"
-    },
-    {
-      "url": "a",
-      "categoria": "s",
-      "nombre": "d",
-      "id": "f25c23ab-87e4-4e5f-98c4-80d68fe4e203"
-    },
-    {
-      "url": "fbq",
-      "categoria": "a",
-      "nombre": "a",
-      "id": "7f6b6be6-74f6-4463-982f-62c476e4be4a"
+      "categoria": "Otros",
+      "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
+      "id": "18"
     }
   ]
 }

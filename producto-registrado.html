@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/menu-index.css">
-    <link rel="stylesheet" href="css/insumos-todos.css">
-    <link rel="stylesheet" href="css/menu_inferior.css">
+    <link rel="stylesheet" href="css/exito.css">
+    <link rel="stylesheet"  href="css/menu_inferior.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Ahsoka Geek</title>
 </head>
@@ -20,12 +20,16 @@
     <section class="menu">
         <div class="menu__container">
             <div class="menu__logo">
-            <a href="index.html"><img class="img_logo" src="assets/geek.png"></a>
+                <div class="menu__logo">
+                    <a href="index.html"><img class="img_logo" src="assets/geek.png"></a>
+                </div>
             </div>
             <div class="menu__buscador">
                 <div class="menu__buscador__barra">
                     <input type="text" class="menu__buscador__input" id="busqueda" name="q"
                         placeholder="¿Qué deseas buscar?">
+                </div>
+                <div class="menu__buscar__boton">
                     <button type="submit" class="busqueda__boton"><img class="buscador__imagen"
                             src="assets/Icon-busqueda.svg"></button>
                 </div>
@@ -33,21 +37,29 @@
         </div>
     </section>
 
-    <section class="insumos">
-        <div class="insumos__container">
-            <div class="insumos__titulo">
-                <h2>Todos los productos</h2>
-                <a href="#"><button class="agregar__btn">Agregar producto</button></a>
+    <section class="carga">
+        <div class="carga__container">
+            <div class="carga__imagen">
+                <img class="check__imagen" src="assets/circle-check-solid.svg">
+                </div>
+                <div>
+                <h1 class="carga_titulo">Producto cargado con éxito!</h1>
+                </div>
+                <div class="carga__botones">
+                <a href="index-productos.html"><button class="enviar__btn">Volver a productos</button></a>
+                <a href="index-nuevo-producto.html"><button class="enviar__btn">Cargar otro producto</button></a>
+                </div>
+                </div>
             </div>
-
-            <div class="insumos__todos" data-table>
-            </div>
+        </div>
     </section>
 
-    <section class="menu_inferior" >
+    <section class="menu_inferior">
         <div class="menu__inferior__container">
             <div class="inferior__logo">
-                <a href="index.html"><img class="img_logo" src="assets/geek.png"></a>
+                <div class="menu__logo">
+                    <a href="index.html"><img class="img_logo" src="assets/geek.png"></a>
+                </div>
             </div>
             <div class="inferior__menu">
                 <ul class="inferior__menu__lista">
@@ -62,22 +74,18 @@
             </div>
             <div class="contacto">
                 <h2 class="contacto__titulo">Hable con nosotros</h2>
-                <div class="contacto__padre">
-                    <span class="contacto__texto__input">Nombre</span>
+                <div class="login__input__padre">
+                    <span class="texto__input">Nombre</span>
                     <input type="text" class="contacto__input">
                 </div>
-                <div class="contacto__padre">
-                <span class="contacto__texto__input">Escriba su mensaje</span>
+                <div class="login__input__padre">
+                <span class="texto__input">Escriba su mensaje</span>
                 <input type="text" class="contacto__input__mensaje">
                 </div>
                 <button class="enviar__btn">Enviar mensaje</button>
                 
             </div>
     </section>
-
-
-
-
 
     <footer>
         <div class="footer__rodape">
@@ -86,8 +94,4 @@
             <img src="assets/firma.png" class="footer__img">
         </div>
     </footer>
-
-<script type="module" src="/controllers/producto-controller.js"></script>
 </body>
-
-</html>
