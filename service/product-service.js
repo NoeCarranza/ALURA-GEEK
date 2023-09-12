@@ -38,12 +38,23 @@ const editarProducto = (url, categoria, nombre, precio,descripcion,id) => {
     .catch(err => console.log(err));
 };
 
+
+const buscarProducto = (nombre) => {
+    return fetch(`http://localhost:3000/producto?nombre=${nombre}`)
+    .then((respuesta) => respuesta.json())
+    .catch((error) => {
+        console.error('Error al buscar producto:', error);
+        throw error;
+    });
+};
+
 export const productosServices = {
     listaProductos,
     crearProducto,
     eliminarProducto,
     detalleProducto,
     editarProducto,
+    buscarproducto,
 }
 
 
