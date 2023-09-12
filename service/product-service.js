@@ -26,11 +26,24 @@ const detalleProducto = (id) =>{
     );
 };
 
+const editarProducto = (url, categoria, nombre, precio,descripcion,id) => {
+    return fetch(`http://localhost:3000/producto/${id}`, {
+    method: "PUT",
+    headers:{
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({url, categoria, nombre, precio,descripcion})
+})
+    .then(respuesta => console.log(respuesta))
+    .catch(err => console.log(err));
+};
+
 export const productosServices = {
     listaProductos,
     crearProducto,
     eliminarProducto,
     detalleProducto,
+    editarProducto,
 }
 
 

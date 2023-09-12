@@ -35,4 +35,15 @@ obtenerInformacion();
 
 formulario.addEventListener("submit", (evento) => {
     evento.preventDefault()
-})
+    const url = new URL(window.location);
+    const id = url.searchParams.get("id");
+    const imageURL = document.querySelector("[data-URL]").value;
+    const categoria = document.querySelector("[data-categoria]").value;
+    const name = document.querySelector("[data-nombre]").value;
+    const price = document.querySelector("[data-precio]").value;
+    const descripcion = document.querySelector("[data-descripcion]").value;
+    console.log(imageURL, " - ", categoria, " - ", name, " - ", price, " - ", descripcion);
+    productosServices.editarProducto(imageURL, categoria, name, price, descripcion,id).then(() => {
+    window.location.href="/edicion-exito.html";
+    })
+});
