@@ -10,7 +10,7 @@ button {
     display: flex;
     padding: 0;
     justify-content: space-between;
-    max-width: 350px;
+    width: 100%;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 25px;
@@ -53,11 +53,10 @@ input{
     border-color: #2A7AE4;
 }
 @media (min-width: 768px) {
-        .menu__container {
-            align-items: center;
-            justify-content: space-around;
+        .menu__container{
             margin: 0;
-            padding: 16px 32px 16px 32px;
+            width: 720px;
+            padding: 25px;
         }
 
         .menu__logo {
@@ -110,9 +109,10 @@ input{
 
 @media (min-width: 1440px) {
     .menu__container {
-        margin: 32px 152px 32px 152px;
+        margin: 32px 230px 32px 230px;
         display: flex;
         padding: 0;
+        width: 1136px;
         justify-content: space-between;
         align-items: center;
     }

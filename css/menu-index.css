@@ -95,7 +95,7 @@ input{
         }
     }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     .menu__container {
         margin: 32px 152px 18px 152px;
         display: flex;
@@ -117,15 +117,16 @@ input{
         padding: 0;
         flex-grow: 2;
         margin-left: 16px;
+        width:600px;
+        border-radius: 25px;
     }
     
     .menu__buscador__barra {
+        background-color: #F5F5F5;
         display: flex;
-        width:500px;
-        border-radius: 25px;
+        width: 400px;
         height: 24px;
         padding: 8px 16px;
-        background-color: #F5F5F5;
         overflow: hidden;
         align-items: center;
     }
