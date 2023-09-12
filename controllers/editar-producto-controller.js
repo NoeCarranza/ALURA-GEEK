@@ -4,33 +4,40 @@ const formulario = document.querySelector("[data-form]")
 
 
 
-const obtenerInformacion = () => {
+const obtenerInformacion = async () => {
     const url = new URL(window.location);
     const id = url.searchParams.get("id");
 
-    if(id ==null ){
-        window.location.href= "/error.html"
+    if (id == null) {
+        window.location.href = "/error.html";
+        return; // Añadir un return para salir de la función si id es nulo
     }
 
+    const imageURL = document.querySelector("[data-URL]");
+    const categoria = document.querySelector("[data-categoria]");
+    const name = document.querySelector("[data-nombre]");
+    const price = document.querySelector("[data-precio]");
+    const descripcion = document.querySelector("[data-descripcion]");
 
-    const imageURL = document.querySelector("[data-URL]")
-    const categoria = document.querySelector("[data-categoria]")
-    const name = document.querySelector("[data-nombre]")
-    const price = document.querySelector("[data-precio]")
-    const descripcion = document.querySelector("[data-descripcion]")
-
-
-
-    productosServices.detalleProducto(id).then(producto => {
-        imageURL.value = producto.imageURL;
-        categoria.value = producto.categoria;
-        name.value = producto.name;
-        price.value = producto.price;
-        descripcion.value = producto.descripcion;
-    });
+    try {
+        const producto = await productosServices.detalleProducto(id);
+        console.log(producto);
+        if (producto) {
+            imageURL.value = producto.imageURL;
+            categoria.value = producto.categoria;
+            name.value = producto.name;
+            price.value = producto.price;
+            descripcion.value = producto.descripcion;
+        } else {
+            throw new Error();
+        }
+    } catch (error) {
+        window.location.href = "/error.html";
+    }
 };
 
 obtenerInformacion();
+
 
 
 formulario.addEventListener("submit", (evento) => {
