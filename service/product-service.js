@@ -1,7 +1,7 @@
 //FETCH API
 const listaProductos = () => 
 fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
-
+console.log("hi");
 
 const crearProducto = (url, categoria, nombre, precio,descripcion) =>{
     return fetch("http://localhost:3000/producto", {
@@ -40,12 +40,13 @@ const editarProducto = (url, categoria, nombre, precio,descripcion,id) => {
 
 
 const buscarProducto = (nombre) => {
-    return fetch(`http://localhost:3000/producto?nombre=${nombre}`)
-    .then((respuesta) => respuesta.json())
-    .catch((error) => {
-        console.error('Error al buscar producto:', error);
-        throw error;
-    });
+    const a = fetch(`http://localhost:3000/producto`)
+    console.log(a);
+    //.then((respuesta) => respuesta.json())
+    //.catch((error) => {
+    //    console.error('Error al buscar producto:', error);
+    //    throw error;
+    //});
 };
 
 export const productosServices = {
@@ -54,7 +55,7 @@ export const productosServices = {
     eliminarProducto,
     detalleProducto,
     editarProducto,
-    buscarproducto,
+    buscarProducto,
 }
 
 

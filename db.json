@@ -1,10 +1,10 @@
 {
   "producto": [
     {
-      "name": "Taza Stormtrooper",
-      "imageUrl": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1635&q=80",
-      "price": "1500",
+      "url": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1635&q=80",
       "categoria": "Star Wars",
+      "nombre": "Taza Stormtrooper",
+      "precio": "1500",
       "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
       "id": "1"
     },
@@ -143,6 +143,14 @@
       "categoria": "Otros",
       "descripcion": "Etiam sit amet malesuada augue. Nullam consequat, metus eleifend vestibulum fermentum, purus nunc mollis turpis, id dignissim ipsum quam in mauris. Donec quis purus eu nunc volutpat maximus vitae vitae enim. In vulputate, dolor at accumsan lobortis, sem quam blandit urna, id luctus ligula sapien a leo. Etiam mattis arcu hendrerit tincidunt condimentum. Duis et pulvinar velit, ut mollis libero. Nullam convallis vitae erat et ullamcorper. In et nisl et augue facilisis pretium non nec elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas congue maximus semper.",
       "id": "18"
+    },
+    {
+      "url": "a",
+      "categoria": "a",
+      "nombre": "a",
+      "precio": "a",
+      "descripcion": "a",
+      "id": "961669b7-8774-4677-a7b0-338a772fc5d2"
     }
   ]
 }
