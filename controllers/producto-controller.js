@@ -25,10 +25,28 @@ const crearProducto = (imageURL, name, price,categoria, id) => {
 };
 
 const table = document.querySelector("[data-table]");
-
 productosServices.listaProductos().then((data) => {
+    console.table(data);
     data.forEach(({imageURL,name,price,categoria,id}) => {
         const agregarNuevo = crearProducto(imageURL, name, price, categoria, id);
         table.appendChild(agregarNuevo);
     });
 }).catch((error) => alert("Ocurrió un error"));
+
+
+// const buscarProducto = (name, categoria) => {
+//     const productosEncontrados = [];
+//     data.forEach(({ imageURL, name, price, categoria, id }) => {
+//         if ((name && productName.toLowerCase().includes(name.toLowerCase())) ||
+//             (categoria && productCategoria.toLowerCase() === categoria.toLowerCase())) {
+//             productosEncontrados.push({name, price, categoria});
+//         }
+//     });
+//     return productosEncontrados;
+// };
+// const tabla = document.getElementById('table');
+// const productosEncontrados = buscarProducto('Nombre a buscar', 'Categoría a buscar');
+// productosEncontrados.forEach(({ imageURL, name, price, categoria, id }) => {
+//     const row = document.createElement('tr');
+//     table.appendChild(row);
+// });

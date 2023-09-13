@@ -26,28 +26,35 @@ const detalleProducto = (id) =>{
     );
 };
 
-const editarProducto = (url, categoria, nombre, precio,descripcion,id) => {
+const editarProducto = (imageURL, categoria, name, price,descripcion,id) => {
     return fetch(`http://localhost:3000/producto/${id}`, {
     method: "PUT",
     headers:{
         "Content-Type": "application/json"
     },
-    body: JSON.stringify({url, categoria, nombre, precio,descripcion})
+    body: JSON.stringify({name, imageURL, price, categoria,descripcion,id})
 })
     .then(respuesta => console.log(respuesta))
     .catch(err => console.log(err));
 };
 
 
-const buscarProducto = (nombre) => {
-    const a = fetch(`http://localhost:3000/producto`)
-    console.log(a);
-    //.then((respuesta) => respuesta.json())
-    //.catch((error) => {
-    //    console.error('Error al buscar producto:', error);
-    //    throw error;
-    //});
+const buscarProducto = (name, categoria) => {
+    const productosEncontrados = [];
+    data.forEach(({ imageURL, name, price, categoria, id }) => {
+        if ((name && productName.toLowerCase().includes(name.toLowerCase())) ||
+            (categoria && productCategoria.toLowerCase() === categoria.toLowerCase())) {
+            productosEncontrados.push({name, price, categoria});
+        }
+    });
+    return productosEncontrados;
 };
+const tabla = document.getElementById('table');
+const productosEncontrados = buscarProducto('Nombre a buscar', 'Categoría a buscar');
+productosEncontrados.forEach(({ imageURL, name, price, categoria, id }) => {
+    const row = document.createElement('tr');
+    table.appendChild(row);
+});
 
 export const productosServices = {
     listaProductos,
@@ -55,7 +62,7 @@ export const productosServices = {
     eliminarProducto,
     detalleProducto,
     editarProducto,
-    buscarProducto,
+    buscarProducto
 }
 
 
