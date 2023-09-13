@@ -118,7 +118,7 @@ h2 {
     
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1440px){
     .insumos__container{
         padding: 64px 152px 64px 152px;
     }
@@ -132,10 +132,9 @@ h2 {
     }
     .insumos__todos {
         display: grid;
-        grid-template-columns: 200px 200px 200px 200px 200px 200px;
+        grid-template-columns: repeat(6, 200px);
         justify-items: center;
         justify-content: space-between;
-        width: 100%;
         height: auto;
         position: relative;
     }
@@ -144,7 +143,12 @@ h2 {
         width: 176px;
         height: 174px;
     }
-    
+    .insumos__producto__starwars,
+    .insumos__producto__consolas,
+    .insumos__producto__otros{
+        margin-bottom: 20px;
+    }
+
     .boton__eliminar {
         position: absolute;
         bottom: 145px;
